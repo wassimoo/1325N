@@ -1197,6 +1197,13 @@ section
 .work_row
 {
 	margin-bottom: 175px;
+
+}
+.work_rowL
+{
+	margin-bottom: 175px;
+
+	
 }
 .work_image
 {
@@ -1206,12 +1213,34 @@ section
 	background-size: cover;
 	background-position: center center;
 }
+.work_imagel
+{
+	width: 100%;
+	height: 360px;
+	right : 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left center;
+}
 .work_image::after
 {
 	display: block;
 	position: absolute;
 	top: 50px;
 	left: -90px;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/dot_1.png);
+	background-repeat: repeat;
+	content: '';
+	z-index: -1;
+}
+.work_imagel::after
+{
+	display: block;
+	position: absolute;
+	top: 50px;
+	right: -90px;
 	width: 100%;
 	height: 100%;
 	background-image: url(../images/dot_1.png);
