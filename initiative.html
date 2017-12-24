@@ -10,6 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles/bootstrap4/">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+    
 </head>
 
 <body>
@@ -17,47 +21,80 @@
 
         <!-- Header -->
         <header class="header">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#" class="text-menu-font">Acceuill</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-menu-font">Initiative</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-menu-font">Formation</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-menu-font">Séminaire</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-menu-font">Table Ronde</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-menu-font">Activité</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);" class="icon" onclick="expand()">&#9776;</a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="header_inner">
+                    <div class="hamburger_container">
+                        <div class="hamburger">
+                            <div class="hamburger_dot"></div>
+                            <div class="hamburger_dot"></div>
+                            <div class="hamburger_dot"></div>
+                            <div class="hamburger_dot"></div>
+                            <div class="hamburger_dot"></div>
+                            <div class="hamburger_dot"></div>
+                            <div class="hamburger_dot"></div>
+                            <div class="hamburger_dot"></div>
+                            <div class="hamburger_dot"></div>
+                        </div>
+                    </div>
+                    
+                    <nav>
+                    <ul>
+                        <li>
+                            <a href="#" class="text-menu-font">Acceuill</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-menu-font">Initiative</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-menu-font">Formation</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-menu-font">Séminaire</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-menu-font">Table Ronde</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-menu-font">Activité</a>
+                        </li>
+
+
+                    </ul>
+                </nav>
+            </div>
         </header>
 
+        <div class="fs_menu_overlay"></div>
+        <div class="fs_menu_container"></div>
+        <div class="fs_close_container menu_item"><i class="fa fa-times-circle-o" aria-hidden="true"></i></div>
+        <div class="fs_menu_items">
+            <ul>
+                <li class="menu_item"><a href="#" class="nav_links" data-scroll-to=".about_section">About</a></li>
+                <li class="menu_item"><a href="#" class="nav_links" data-scroll-to=".works_section">Work</a></li>
+                <li class="menu_item"><a href="#" class="nav_links" data-scroll-to=".services_section">Services</a></li>
+                <li class="menu_item"><a href="#" class="nav_links" data-scroll-to=".team_section">Team</a></li>
+                <li class="menu_item"><a href="#" class="nav_links" data-scroll-to=".news_section">News</a></li>
+                <li class="menu_item"><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="fs_menu_line menu_item"></div>
+            <div class="clear"></div>
+            <div class="fs_social menu_item">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <script>
 
-        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-        function expand() {
-            var x = document.getElementsByName("nav");
-            if (x.className === "nav") {
-                x.className += " responsive";
-            } else {
-                x.className = "nav";
-            }
-        }
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 
-    </script>
 </body>
 
 </html>
