@@ -61,7 +61,7 @@ body
 	font-size: 14px;
 	line-height: 23px;
 	font-weight: 700;
-	background: #F5F9F8;
+	background: #fffcfc;
 	color: #313131;
 }
 div
@@ -324,7 +324,7 @@ section
 	font-family: 'Raleway', sans-serif;
 	font-size: 15px;
 	line-height: 1.7;
-	font-weight: 500;
+	font-weight: 10000;
 	color: #000000;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -384,7 +384,7 @@ section
 }
 .hamburger:hover .hamburger_dot
 {
-	background: #FF6347;
+	background: 	#FF1493;
 }
 .hamburger
 {
@@ -503,7 +503,7 @@ section
 	right: -1350px;
 	width: 1350px;
 	height: 1350px;
-	background: #FF6347;
+	background: #FF1493;
 	z-index: 1000;
 	border-radius: 50%;
 	-webkit-transition: all 0.5s cubic-bezier(.5,.44,.29,.95);
@@ -843,6 +843,7 @@ section
 	font-size: 92px;
 	font-weight: 900;
 	margin-bottom: 83px;
+
 }
 .home_content_item h1::after
 {
@@ -850,7 +851,7 @@ section
 	position: absolute;
 	bottom: -37px;
 	left: 70%;
-	background: #FF6347;
+	background: #FF69B4;
 	content: '';
 	width: 250px;
 	height: 15px;
@@ -1061,7 +1062,7 @@ section
 	left: 50%;
 	width: 350px;
 	height: 15px;
-	background: #FF6347;
+	background: #FF69B4;
 	content: '';
 	z-index: 1;
 }
@@ -2354,7 +2355,7 @@ section
 .stats_counter
 {
 	font-size: 48px;
-	color: #ff6347;
+	color: #FF1493;
 }
 .stats_description
 {
@@ -2364,7 +2365,7 @@ section
 }
 .stats_description span
 {
-	color: #ff6347;
+	color: #FF1493;
 }
 .stats_text
 {
