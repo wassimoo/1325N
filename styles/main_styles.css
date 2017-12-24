@@ -131,7 +131,7 @@ p::selection
 	background: #fde0db;
 }
 h1{font-size: 48px;}
-h2{font-size: 36px;}
+h2{font-size: 35px;}
 h3{font-size: 28px;}
 h4{font-size: 24px;}
 h5{font-size: 16px;}
@@ -1068,6 +1068,11 @@ section
 .section_title h1
 {
 	font-size: 92px;
+	font-weight: 900;
+	line-height: 101.2px;
+}
+.section_title h2 {
+	font-size: 50px;
 	font-weight: 900;
 	line-height: 101.2px;
 }
