@@ -143,14 +143,14 @@ h1, h2, h3, h4, h5, h6
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-h1::selection, 
-h2::selection, 
-h3::selection, 
-h4::selection, 
-h5::selection, 
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
 h6::selection
 {
-	
+
 }
 ::-webkit-input-placeholder
 {
@@ -164,14 +164,14 @@ h6::selection
 	font-weight: 500;
 	color: #777777 !important;
 }
-::-moz-placeholder /* Firefox 19+ */ 
+::-moz-placeholder /* Firefox 19+ */
 {
 	font-size: 16px !important;
 	font-weight: 500;
 	color: #777777 !important;
-} 
+}
 :-ms-input-placeholder
-{ 
+{
 	font-size: 16px !important;
 	font-weight: 500;
 	color: #777777 !important;
@@ -1072,13 +1072,13 @@ section
 	line-height: 101.2px;
 }
 .section_title h2 {
-	font-size: 50x;
+	font-size: 70x;
 	font-weight: 900;
 	line-height: 101.2px;
 }
 .section_content p
 {
-	
+
 }
 .contact_btn
 {
@@ -1203,7 +1203,7 @@ section
 {
 	margin-bottom: 175px;
 
-	
+
 }
 .work_image
 {
@@ -1875,7 +1875,7 @@ section
 	border: solid 2px #a7a7a7;
 	border-radius: 50%;
 	color: #a7a7a7;
-	
+
 }
 .team_item:hover .team_social ul li
 {
@@ -2286,7 +2286,7 @@ section
 	letter-spacing: 1px;
 	color: #b4b3b4 !important;
 }
-::-moz-placeholder /* Firefox 19+ */ 
+::-moz-placeholder /* Firefox 19+ */
 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 12px !important;
@@ -2294,9 +2294,9 @@ section
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: #b4b3b4 !important;
-} 
+}
 :-ms-input-placeholder
-{ 
+{
 	font-family: 'Raleway', sans-serif;
 	font-size: 12px !important;
 	font-weight: 700;
