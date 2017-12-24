@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Initiative</title>
+    <meta charset="utf-8">
+    <meta name="description" content="1325">
+    <meta name="author" content="BlueMotion">
+    <meta name="keywords" content="1325, FreeSight, association">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" class="text-menu-font">Acceuill</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-menu-font">Initiative</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-menu-font">Formation</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-menu-font">Séminaire</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-menu-font">Table Ronde</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-menu-font">Activité</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="icon" onclick="expand()">&#9776;</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+    </div>
+    <script>
+
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function expand() {
+            var x = document.getElementsByName("nav");
+            if (x.className === "nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
