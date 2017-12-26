@@ -330,34 +330,42 @@ section
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-.myli li>a{
-	text-decoration:none;
-}
-.myli li>a:hover{
-	color : #000;
-}
 
-.myli li>a:before {
+.myli li> a {
 
-	content: "";
-	position: fixed;
-	width: 100%;
-	height: 2px;
-	bottom: 0;
-	left: 0;
-	background-color: #000;
-	visibility: hidden;
-	-webkit-transform: scaleX(0);
-	transform: scaleX(0);
-	-webkit-transition: all 0.3s ease-in-out 0s;
-	transition: all 0.3s ease-in-out 0s;
-}
-.myli li>a:hover:before{
-	visibility: visible;
-	-webkit-transform: scaleX(1);
-	transform: scaleX(1);
-}
 
+	text-decoration: none;
+	color: #ff1493;
+	font-weight: 800;
+	text-transform: uppercase;
+
+  }
+
+.myli li>a:after,
+.myli li >a:before {
+	transition: all .3s;
+  }
+.myli li>a:hover {
+	color: #555;
+  }
+
+/* stroke */
+.myli.fill  li >a {
+  position: relative;
+}
+.myli li> a:after,
+.myli.fill  li>a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #ff1493;
+  height: 1px;
+}
 
 /*********************************
 3.3 Hamburger
@@ -1033,7 +1041,7 @@ section
 	left: -90px;
 	width: 100%;
 	height: 100%;
-	
+
 	background-repeat: repeat;
 	content: '';
 	z-index: -1;
