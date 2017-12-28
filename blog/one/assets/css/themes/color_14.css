@@ -1,0 +1,188 @@
+/*
+COLOR
+*/
+.m-logo_text span {
+  color: #FF9900; }
+
+.lnr.lnr-menu {
+  color: #FF9900; }
+
+.m-price_blocks > div:nth-child(2) div.m-single_price_inner {
+  border-color: #FF9900; }
+  .m-price_blocks > div:nth-child(2) div.m-single_price_inner h3 {
+    color: #FF9900; }
+
+a:hover {
+  color: #FF9900; }
+
+.m-get_quote_box button:hover {
+  background-color: #FF9900;
+  border-color: #FF9900; }
+
+.m-get_quote_box > span:hover {
+  background-color: #FF9900; }
+
+.m-service_idea i {
+  color: #FF9900; }
+
+.m-footer .m-footer_nav a:hover {
+  color: #FF9900; }
+
+.m-main_nav.style ul li a:hover {
+  color: #FF9900; }
+
+.m-service_type .m-service_type_text h3::after {
+  background: #FF9900; }
+
+.m-portfolio_items .m-portfolio_info_text h3 a:hover {
+  color: #FF9900; }
+
+.m-portfolio_items .m-portfolio_info_text i:hover {
+  background: #FF9900; }
+
+.m-portfolio_items .m-portfolio_info_text li a:hover {
+  color: #FF9900; }
+
+.m-social_icon li a:hover i {
+  background: #FF9900; }
+
+.m-team_member .m-member_info > a::after {
+  background: #FF9900; }
+
+.m-team_member .m-member_info > a:hover {
+  color: #FF9900; }
+
+.m-why_us h2::after {
+  background: #FF9900; }
+
+.m-price_blocks .m-single_price_inner a.m-but_blank_link:hover {
+  background: #FF9900; }
+
+.m-price_blocks .m-single_price_inner:hover {
+  border-color: #FF9900; }
+
+.m-price_blocks .m-single_price_inner h3::after {
+  background: #FF9900; }
+
+input:focus, textarea:focus, .m-side_bar form input:focus, .m-prod_detail_attr .m-prod_counter input:focus {
+  border-color: #FF9900; }
+
+.m-contact_info button:hover {
+  background: #FF9900; }
+
+.m-user_review .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #FF9900; }
+
+.m-line_graph h3::after {
+  background: #FF9900; }
+
+.m-header .fa.fa-search:hover {
+  color: #FF9900; }
+
+.m-photoslide_arrow i:hover {
+  color: #FF9900; }
+
+.m-border_title::after {
+  background: #FF9900; }
+
+.m-portfolio_types li.m-active_port, .m-portfolio_types li:hover {
+  background: #FF9900; }
+
+.m-error_outer h1 {
+  color: #FF9900; }
+
+.m-page_search button {
+  background: #FF9900; }
+
+.m-main_nav.style ul ul li a:hover {
+  background: #FF9900; }
+
+.m-side_bar form button {
+  background: #FF9900; }
+
+.m-pagination ul a:hover, .m-pagination ul span:hover, .m-pagination ul span.disable {
+  background: #FF9900; }
+
+.m-blog_list_details .m-blog_list_footer a.m-read_more:hover {
+  background: #FF9900; }
+
+.m-shop_banner .m-banner_text a:hover {
+  background: #FF9900; }
+
+.m-product_shop .m-add_cart:hover {
+  background: #FF9900; }
+
+.m-product_tabs .nav-tabs > li.active a::after {
+  background: #FF9900; }
+
+.m-prod_detail_attr .m-prod_counter span:hover {
+  background: #FF9900; }
+
+.m-prod_detail_attr > div > i:hover, .m-prod_detail_attr .m-add_cart:hover {
+  background: #FF9900; }
+
+.m-but:hover {
+  background: #FF9900; }
+
+.m-banner_text_outer i.fa-search:hover {
+  background: #FF9900; }
+
+.m-close_popup i:hover {
+  color: #FF9900; }
+
+.m-index_arc .m-slide_nav_arc > a:hover {
+  background: #FF9900; }
+
+.m-header .fa:hover {
+  color: #FF9900; }
+
+.m-altr_menu nav .m-attr_submenu::after {
+  background: #FF9900; }
+
+.m-attr_submenu:hover > a {
+  color: #FF9900; }
+
+.m-altr_menu .fa-times:hover {
+  color: #FF9900; }
+
+.m-grid_blocks .m-grid_listing > div i:hover {
+  background: #FF9900; }
+
+.m-comment li a.m-comment_user:hover {
+  color: #FF9900; }
+
+.m-blog_single .m-blog_quote p::before {
+  background: #FF9900; }
+
+.m-grid_blocks .m-grid_listing > div > div i.m-expand_popup:hover {
+  color: #FF9900; }
+
+.m-grid_blocks .m-grid_listing > div i.fa-times:hover {
+  background: none;
+  color: #FF9900; }
+
+.m-web .m-service_idea span {
+  color: #FF9900; }
+
+.m-get_quote {
+  background: #FF9900; }
+
+.m-line_graph .m-line_graph_bar > div {
+  background: #FF9900; }
+
+/*# sourceMappingURL=color_14.css.map */
+.m-wrapper .m-price_blocks > div:nth-child(2) div.m-single_price_inner h3 { 
+  background-color: #ff9900;
+}
+.m-wrapper #m-write_us .m-write_us::after {
+  content: "";
+  background-color:rgba(255,153,0,0.8);
+}
+.m-price_blocks > div:nth-child(2) div.m-single_price_inner {
+  box-shadow: 0 17px 42px -16px #000;
+}
+.dark_m-why_us h2::before {
+   content: "?";
+   color: #3f3f3f;
+   text-shadow: 5px 6px 0 #000;
+}

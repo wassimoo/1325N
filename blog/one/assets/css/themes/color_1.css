@@ -1,0 +1,176 @@
+/*
+COLOR
+*/
+.m-logo_text span {
+  color: #e72138 ; }
+
+.lnr.lnr-menu {
+  color: #e72138 ; }
+
+.m-price_blocks > div:nth-child(2) div.m-single_price_inner {
+  border-color: #e72138 ; }
+  .m-price_blocks > div:nth-child(2) div.m-single_price_inner h3 {
+    color: #e72138 ; }
+
+a:hover {
+  color: #e72138 ; }
+
+.m-get_quote_box button:hover {
+  background-color: #e72138 ;
+  border-color: #e72138 ; }
+
+.m-get_quote_box > span:hover {
+  background-color: #e72138 ; }
+
+.m-service_idea i {
+  color: #e72138 ; }
+
+.m-footer .m-footer_nav a:hover {
+  color: #e72138 ; }
+
+.m-main_nav.style ul li a:hover, .m-main_nav.style ul li.active > a {
+  color: #e72138 ; }
+
+.m-service_type .m-service_type_text h3::after {
+  background: #e72138 ; }
+
+.m-portfolio_items .m-portfolio_info_text h3 a:hover {
+  color: #e72138 ; }
+
+.m-portfolio_items .m-portfolio_info_text i:hover {
+  background: #e72138 ; }
+
+.m-portfolio_items .m-portfolio_info_text li a:hover {
+  color: #e72138 ; }
+
+.m-social_icon li a:hover i {
+  background: #e72138 ; }
+
+.m-team_member .m-member_info > a::after {
+  background: #e72138 ; }
+
+.m-team_member .m-member_info > a:hover {
+  color: #e72138 ; }
+
+.m-why_us h2::after {
+  background: #e72138 ; }
+
+.m-price_blocks .m-single_price_inner a.m-but_blank_link:hover {
+  background: #e72138 ; }
+
+.m-price_blocks .m-single_price_inner:hover {
+  border-color: #e72138 ; }
+
+.m-price_blocks .m-single_price_inner h3::after {
+  background: #e72138 ; }
+
+input:focus, textarea:focus, .m-side_bar form input:focus, .m-prod_detail_attr .m-prod_counter input:focus {
+  border-color: #e72138 ; }
+
+.m-contact_info button:hover {
+  background: #e72138 ; }
+
+.m-user_review .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #e72138 ; }
+
+.m-line_graph h3::after {
+  background: #e72138 ; }
+
+.m-header .fa.fa-search:hover {
+  color: #e72138 ; }
+
+.m-photoslide_arrow i:hover {
+  color: #e72138 ; }
+
+.m-border_title::after {
+  background: #e72138 ; }
+
+.m-portfolio_types li.m-active_port, .m-portfolio_types li:hover {
+  background: #e72138 ; }
+
+.m-error_outer h1 {
+  color: #e72138 ; }
+
+.m-page_search button {
+  background: #e72138 ; }
+
+.m-main_nav.style ul ul li a:hover {
+  background: #e72138 ; }
+
+.m-side_bar form button {
+  background: #e72138 ; }
+
+.m-pagination ul a:hover, .m-pagination ul span:hover, .m-pagination ul span.disable {
+  background: #e72138 ; }
+
+.m-blog_list_details .m-blog_list_footer a.m-read_more:hover {
+  background: #e72138 ; }
+
+.m-shop_banner .m-banner_text a:hover {
+  background: #e72138 ; }
+
+.m-product_shop .m-add_cart:hover {
+  background: #e72138 ; }
+
+.m-product_tabs .nav-tabs > li.active a::after {
+  background: #e72138 ; }
+
+.m-prod_detail_attr .m-prod_counter span:hover {
+  background: #e72138 ; }
+
+.m-prod_detail_attr > div > i:hover, .m-prod_detail_attr .m-add_cart:hover {
+  background: #e72138 ; }
+
+.m-but:hover {
+  background: #e72138 ; }
+
+.m-line_graph .m-line_graph_bar > div {
+  background: #e72138 ; }
+
+.m-banner_text_outer i.fa-search:hover {
+  background: #e72138 ; }
+
+.m-close_popup i:hover {
+  color: #e72138 ; }
+
+.m-index_arc .m-slide_nav_arc > a:hover {
+  background: #e72138 ; }
+
+.m-header .fa:hover {
+  color: #e72138 ; }
+
+.m-altr_menu nav .m-attr_submenu::after {
+  background: #e72138 ; }
+
+.m-attr_submenu:hover > a {
+  color: #e72138 ; }
+
+.m-altr_menu .fa-times:hover {
+  color: #e72138 ; }
+
+.m-grid_blocks .m-grid_listing > div i:hover {
+  background: #e72138 ; }
+
+.m-comment li a.m-comment_user:hover {
+  color: #e72138 ; }
+
+.m-blog_single .m-blog_quote p::before {
+  background: #e72138 ; }
+
+.m-grid_blocks .m-grid_listing > div > div i.m-expand_popup:hover {
+  color: #e72138 ; }
+
+.m-grid_blocks .m-grid_listing > div i.fa-times:hover {
+  background: none;
+  color: #e72138 ; }
+
+.m-web .m-service_idea span {
+  color: #e72138 ; }
+
+.m-get_quote {
+  color: #e72138 ; }
+
+.m-write_us {
+  background: #e72138 ; }
+
+/*# sourceMappingURL=color_1.css.map */

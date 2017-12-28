@@ -1,0 +1,199 @@
+/*
+COLOR
+*/
+.m-logo_text span {
+  color: #1919f7; }
+
+.lnr.lnr-menu {
+  color: #1919f7; }
+
+.m-price_blocks > div:nth-child(2) div.m-single_price_inner {
+  border-color: #1919f7; }
+  .m-price_blocks > div:nth-child(2) div.m-single_price_inner h3 {
+    color: #1919f7; }
+
+a:hover {
+  color: #1919f7; }
+
+.m-get_quote_box button:hover {
+  background-color: #1919f7;
+  border-color: #1919f7; }
+
+.m-get_quote_box > span:hover {
+  background-color: #1919f7; }
+
+.m-service_idea i {
+  color: #1919f7; }
+
+.m-footer .m-footer_nav a:hover {
+  color: #1919f7; }
+
+.m-main_nav.style ul li a:hover, .m-main_nav.style ul li.active > a {
+  color: #1919f7; }
+
+.m-service_type .m-service_type_text h3::after {
+  background: #1919f7; }
+
+.m-portfolio_items .m-portfolio_info_text h3 a:hover {
+  color: #1919f7; }
+
+.m-portfolio_items .m-portfolio_info_text i:hover {
+  background: #1919f7; }
+
+.m-portfolio_items .m-portfolio_info_text li a:hover {
+  color: #1919f7; }
+
+.m-social_icon li a:hover i {
+  background: #1919f7; }
+
+.m-team_member .m-member_info > a::after {
+  background: #1919f7; }
+
+.m-team_member .m-member_info > a:hover {
+  color: #1919f7; }
+
+.m-why_us h2::after {
+  background: #1919f7; }
+
+.m-price_blocks .m-single_price_inner a.m-but_blank_link:hover {
+  background: #1919f7; }
+
+.m-price_blocks .m-single_price_inner:hover {
+  border-color: #1919f7; }
+
+.m-price_blocks .m-single_price_inner h3::after {
+  background: #1919f7; }
+
+input:focus, textarea:focus, .m-side_bar form input:focus, .m-prod_detail_attr .m-prod_counter input:focus {
+  border-color: #1919f7; }
+
+.m-contact_info button:hover {
+  background: #1919f7; }
+
+.m-user_review .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #1919f7; }
+
+.m-line_graph h3::after {
+  background: #1919f7; }
+
+.m-header .fa.fa-search:hover {
+  color: #1919f7; }
+
+.m-photoslide_arrow i:hover {
+  color: #1919f7; }
+
+.m-border_title::after {
+  background: #1919f7; }
+
+.m-portfolio_types li.m-active_port, .m-portfolio_types li:hover {
+  background: #1919f7; }
+
+.m-error_outer h1 {
+  color: #1919f7; }
+
+.m-page_search button {
+  background: #1919f7; }
+
+.m-main_nav.style ul ul li a:hover {
+  background: #1919f7; }
+
+.m-side_bar form button {
+  background: #1919f7; }
+
+.m-pagination ul a:hover, .m-pagination ul span:hover, .m-pagination ul span.disable {
+  background: #1919f7; }
+
+.m-blog_list_details .m-blog_list_footer a.m-read_more:hover {
+  background: #1919f7; }
+
+.m-shop_banner .m-banner_text a:hover {
+  background: #1919f7; }
+
+.m-product_shop .m-add_cart:hover {
+  background: #1919f7; }
+
+.m-product_tabs .nav-tabs > li.active a::after {
+  background: #1919f7; }
+
+.m-prod_detail_attr .m-prod_counter span:hover {
+  background: #1919f7; }
+
+.m-prod_detail_attr > div > i:hover, .m-prod_detail_attr .m-add_cart:hover {
+  background: #1919f7; }
+
+.m-but:hover {
+  background: #1919f7; }
+
+.m-banner_text_outer i.fa-search:hover {
+  background: #1919f7; }
+
+.m-close_popup i:hover {
+  color: #1919f7; }
+
+.m-index_arc .m-slide_nav_arc > a:hover {
+  background: #1919f7; }
+
+.m-header .fa:hover {
+  color: #1919f7; }
+
+.m-altr_menu nav .m-attr_submenu::after {
+  background: #1919f7; }
+
+.m-attr_submenu:hover > a {
+  color: #1919f7; }
+
+.m-altr_menu .fa-times:hover {
+  color: #1919f7; }
+
+.m-grid_blocks .m-grid_listing > div i:hover {
+  background: #1919f7; }
+
+.m-comment li a.m-comment_user:hover {
+  color: #1919f7; }
+
+.m-blog_single .m-blog_quote p::before {
+  background: #1919f7; }
+
+.m-grid_blocks .m-grid_listing > div > div i.m-expand_popup:hover {
+  color: #1919f7; }
+
+.m-grid_blocks .m-grid_listing > div i.fa-times:hover {
+  background: none;
+  color: #1919f7; }
+
+.m-web .m-service_idea span {
+  color: #1919f7; }
+
+.m-get_quote {
+  background: #1919f7; }
+
+.m-line_graph .m-line_graph_bar > div {
+  background: #1919f7; }
+
+.m-price_blocks > div:nth-child(2) div.m-single_price_inner h3 {
+  background: #1919f7;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #b0b0f8, #1919f7);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #b0b0f8, #1919f7);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #b0b0f8, #1919f7);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #b0b0f8, #1919f7);
+}
+#m-write_us .m-write_us::after {
+  content: "";
+  background: #1919f7;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #b0b0f8, #1919f7);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #b0b0f8, #1919f7);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #b0b0f8, #1919f7);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #b0b0f8, #1919f7);
+}
+
+
+
+/*# sourceMappingURL=color_9.css.map */
