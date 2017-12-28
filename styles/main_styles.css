@@ -101,11 +101,11 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: hsl(342, 93%, 49%);;
+	color: hsl(342, 93%, 49%);
 }
 p a:hover
 {
-	color: hsl(342, 93%, 49%);;
+	color: hsl(342, 93%, 49%);
 	background: #fde0db;
 }
 p a:hover::after
@@ -115,7 +115,7 @@ p a:hover::after
 ::selection
 {
 	background: #fde0db;
-	color: hsl(342, 93%, 49%);;
+	color: hsl(342, 93%, 49%);
 }
 p::selection
 {
@@ -329,7 +329,7 @@ section
 }
 .hamburger:hover .hamburger_dot
 {
-	background: 	hsl(342, 93%, 49%);;
+	background: 	hsl(342, 93%, 49%);
 }
 .hamburger
 {
@@ -448,7 +448,7 @@ section
 	right: -1350px;
 	width: 1350px;
 	height: 1350px;
-	background: hsl(342, 93%, 49%);;
+	background: hsl(342, 93%, 49%);
 	z-index: 1000;
 	border-radius: 50%;
 	-webkit-transition: all 0.5s cubic-bezier(.5,.44,.29,.95);
@@ -623,7 +623,7 @@ section
 }
 .home_social ul li a:hover
 {
-	color: hsl(342, 93%, 49%);;
+	color: hsl(342, 93%, 49%);
 }
 
 /*********************************
@@ -796,7 +796,7 @@ section
 	position: absolute;
 	bottom: -37px;
 	left: 70%;
-	background: hsl(342, 93%, 49%);;
+	background: hsl(342, 93%, 49%);
 	content: '';
 	width: 250px;
 	height: 15px;
@@ -872,9 +872,9 @@ section
 	align-items: center;
 	width: 50px;
 	height: 50px;
-	border: solid 2px hsl(342, 93%, 49%);;
+	border: solid 2px hsl(342, 93%, 49%);
 	border-radius: 50%;
-	background: hsl(342, 93%, 49%);;
+	background: hsl(342, 93%, 49%);
 	float: left;
 }
 .video:hover .play_video
@@ -892,12 +892,12 @@ section
 }
 .video:hover .play_video i
 {
-	color: hsl(342, 93%, 49%);;
+	color: hsl(342, 93%, 49%);
 }
 .video div:last-of-type
 {
 	float: left;
-	color: hsl(342, 93%, 49%);;
+	color: hsl(342, 93%, 49%);
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: 900;
@@ -941,7 +941,7 @@ section
 }
 .main_slider_nav ul li:hover svg path
 {
-	fill:hsl(342, 93%, 49%);;
+	fill:hsl(342, 93%, 49%);
 }
 
 /*********************************
@@ -1007,7 +1007,7 @@ section
 	left: 50%;
 	width: 350px;
 	height: 15px;
-	background: hsl(342, 93%, 49%);;
+	background: hsl(342, 93%, 49%);
 	content: '';
 	z-index: 1;
 }
@@ -1075,7 +1075,7 @@ section
 }
 .contact_btn:hover
 {
-	color:hsl(342, 93%, 49%);;
+	color:hsl(342, 93%, 49%);
 }
 
 /*********************************
@@ -1128,7 +1128,7 @@ section
 	height: 15px;
 	width: calc(100% - 2px);
 	content: '';
-	background: hsl(342, 93%, 49%);;
+	background: hsl(342, 93%, 49%);
 	z-index: -1;
 }
 .skills_content p:last-child
@@ -1549,7 +1549,7 @@ section
 	content: "\f111";
 	font-family: 'FontAwesome';
 	font-size: 7px;
-	color: hsl(342, 93%, 49%);;
+	color: hsl(342, 93%, 49%);
 	padding-top: 7px;
 }
 
@@ -1987,7 +1987,7 @@ section
 }
 .blog_post_content h2 a:hover
 {
-	color: hsl(342, 93%, 49%);;
+	color: hsl(342, 93%, 49%);
 }
 .blog_post_category
 {
@@ -2006,7 +2006,7 @@ section
 	left: 0;
 	width: 40px;
 	height: 3px;
-	background: hsl(342, 93%, 49%);;
+	background: hsl(342, 93%, 49%);
 	content: '';
 }
 .blog_post_meta
@@ -2018,7 +2018,7 @@ section
 }
 .blog_post_meta i
 {
-	color: hsl(342, 93%, 49%);;
+	color: hsl(342, 93%, 49%);
 	margin-right: 6px;
 	font-size: 16px;
 }
@@ -2324,7 +2324,7 @@ section
 .stats_counter
 {
 	font-size: 48px;
-	color: hsl(342, 93%, 49%);;
+	color: hsl(342, 93%, 49%);
 }
 .stats_description
 {
@@ -2334,7 +2334,7 @@ section
 }
 .stats_description span
 {
-	color: hsl(342, 93%, 49%);;
+	color: hsl(342, 93%, 49%);
 }
 .stats_text
 {
@@ -2411,7 +2411,7 @@ section
 }
 .footer_social ul li a:hover
 {
-	color:hsl(342, 93%, 49%);;
+	color:hsl(342, 93%, 49%);
 }
 .footer_copy
 {
@@ -2426,5 +2426,5 @@ section
 }
 .footer_copy span a:hover
 {
-	color:hsl(342, 93%, 49%);;
+	color:hsl(342, 93%, 49%);
 }
