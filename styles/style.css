@@ -4,9 +4,11 @@
 	padding: 0;
 }
 
-body{
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200i,300,400,400i,500,600,700,900|Roboto:100,300,400,500|Open+Sans:400,500,600,700');
 
-    font-family: 'Raleway', sans-serif;
+
+body{
+	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	line-height: 23px;
 	font-weight: 700;
@@ -396,14 +398,88 @@ nav ul li a:hover:after {
 	transform: translateY(-3px);
 }
 
-@media screen and (max-width: 998px) {
-	nav{
-		display: none;
-	}
-}
+
 @media screen and (min-width: 998px) {
 		.hamburger_container {
 			display: none;
 		}
 	
+}
+
+@media only screen and (max-width: 998px)
+{
+	nav ul{
+		display: none;
+	}
+
+	p
+	{
+		font-size: 13px;
+	}
+	.header
+	{
+		height: 60px;
+	}
+	.hamburger_container
+	{
+		width: 18px;
+		height: 18px;
+	}
+	.hamburger_dot
+	{
+		width: 4px;
+		height: 4px;
+	}
+	 .fs_close_container
+	{
+		top: 15px;
+		right: 15px;
+		width: 30px;
+		height: 30px;
+	}
+		.fs_close_container i
+	{
+		font-size: 30px;
+	}
+	.fs_menu_items
+	{
+		top: 75px;
+		right: 15px;
+	}
+	
+	   
+
+	.fs_menu_line
+	{
+		margin-top: 15px;
+		width: 50px;
+		height: 1px;
+	}
+	
+		.fs_social
+	{
+		margin-top: 18px;
+	}
+	.fs_social ul li
+	{
+		margin-right: 18px;
+	}
+	.fs_social ul li a i
+	{
+		font-size: 18px;
+	}
+	.fs_menu_items > ul li a
+	{
+		display: block;
+		font-size: 24px;
+		line-height: 1.2;
+	}
+	
+	
+}
+
+@media only screen and (max-height : 600px)
+{
+
+
 }
