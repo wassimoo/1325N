@@ -76,7 +76,7 @@
 
 @media only screen and (max-width: 1280px)
 {
-	
+
 }
 
 /************
@@ -148,7 +148,7 @@
 	}
 	.team_overlay
 	{
-		
+
 	}
 	.team_overlay_left
 	{
@@ -282,6 +282,14 @@
 	.work_image::after
 	{
 		left: 0px;
+
+	}
+	.work_imagel{
+		height:  450px;
+		left : 15px;
+	}
+	.work_imagel::after{
+		right:  0px;
 	}
 	.skills
 	{
@@ -504,7 +512,7 @@
 
 @media only screen and (max-width: 880px)
 {
-	
+
 }
 
 /************
@@ -513,7 +521,7 @@
 
 @media only screen and (max-width: 768px)
 {
-	
+
 }
 
 /************
@@ -649,7 +657,7 @@
 
 @media only screen and (max-width: 539px)
 {
-	
+
 }
 
 /************
@@ -658,7 +666,7 @@
 
 @media only screen and (max-width: 480px)
 {
-	
+
 }
 
 /************
@@ -895,7 +903,7 @@
 		bottom: -1px;
 		height: 10px;
 	}
-	.work_image,
+	.work_image .work_imagel,
 	.team_title_image
 	{
 		height: 330px;
@@ -1068,7 +1076,7 @@
 		letter-spacing: 1px;
 		color: #b4b3b4 !important;
 	}
-	::-moz-placeholder /* Firefox 19+ */ 
+	::-moz-placeholder /* Firefox 19+ */
 	{
 		font-family: 'Raleway', sans-serif;
 		font-size: 10px !important;
@@ -1076,9 +1084,9 @@
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		color: #b4b3b4 !important;
-	} 
+	}
 	:-ms-input-placeholder
-	{ 
+	{
 		font-family: 'Raleway', sans-serif;
 		font-size: 10px !important;
 		font-weight: 700;
@@ -1176,5 +1184,5 @@
 
 @media only screen and (max-width: 400px)
 {
-	
+
 }

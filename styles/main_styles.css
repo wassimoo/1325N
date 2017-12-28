@@ -1166,14 +1166,14 @@ section
 	right : 200px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: left center;
+	background-position: center center;
 }
 .work_imagel::after{
 
 		display: block;
 		position: absolute;
 		top: 50px;
-		left: -90px;
+		right: -90px;
 		width: 100%;
 		height: 100%;
 
@@ -1205,19 +1205,7 @@ section
 	content: '';
 	z-index: -1;
 }
-.work_imagel::after
-{
-	display: block;
-	position: absolute;
-	top: 50px;
-	right: -90px;
-	width: 100%;
-	height: 100%;
 
-	background-repeat: repeat;
-	content: '';
-	z-index: -1;
-}
 .work_image::before
 {
 	display: block;
@@ -1685,7 +1673,7 @@ section
 	width: 100%;
 	height: 30%;
 	top: 33%;
-	background: rgba(255, 99, 71, 0.5);
+	background: rgba(244, 8, 78, 0.3);
 	z-index: 2;
 	-webkit-transition: all 0.3s cubic-bezier(0.615, 0.19, 0.305, 0.91);
 	-moz-transition: all 0.3s cubic-bezier(0.615, 0.19, 0.305, 0.91);
@@ -1710,7 +1698,7 @@ section
 	left: -3px;
 	width: calc(100% + 6px);
 	height: calc(100% + 6px);
-	border: solid 1px rgba(255, 99, 71, 0);
+	border: solid 1px rgba(244, 8, 78, 0);
 	content: '';
 	border-radius: 50%;
 	-webkit-transition: all 0.3s cubic-bezier(0.615, 0.19, 0.305, 0.91);
@@ -1726,11 +1714,11 @@ section
 	top: 45px;
 	left: 50px;
 	border-radius: 50%;
-	background: rgba(255, 99, 71, 1);
+	background: rgb(255,20,147);
 }
 .team_item:hover .team_overlay::after
 {
-	border: solid 1px rgba(255, 99, 71, 1);
+	border: solid 1px rgba(244, 8, 78, 0);
 }
 .team_image
 {
@@ -2113,7 +2101,7 @@ section
 }
 .user_pic:hover
 {
-	box-shadow: 2px 3px 5px rgba(255,99,71,1);
+	box-shadow: 2px 3px 5px hsl(342, 93%, 49%);
 }
 .user_name
 {
