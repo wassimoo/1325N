@@ -5,7 +5,7 @@
 
 COLOR PALETTE
 
-#FF6347 - (Tomato)
+hsl(342, 93%, 49%); - (Tomato)
 #989898 - (Spanish Grey) - Text Color
 #F5F9F8 - (White Smoke) - Background Color
 
@@ -44,7 +44,6 @@ COLOR PALETTE
 1. Fonts
 ***********/
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,200i,300,400,400i,500,600,700,900|Roboto:100,300,400,500|Open+Sans:400,500,600,700');
 
 /*********************************
 2. Body and some general stuff
@@ -55,15 +54,7 @@ COLOR PALETTE
 	margin: 0;
 	padding: 0;
 }
-body
-{
-	font-family: 'Raleway', sans-serif;
-	font-size: 14px;
-	line-height: 23px;
-	font-weight: 700;
-	background: #fffcfc;
-	color: #313131;
-}
+
 div
 {
 	display: block;
@@ -79,7 +70,7 @@ ul
 }
 p
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: sans-serif;
 	font-size: 14px;
 	line-height: 1.7;
 	font-weight: 500;
@@ -110,11 +101,11 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: #FF6347;
+	color: hsl(342, 93%, 49%);;
 }
 p a:hover
 {
-	color: #FF6347;
+	color: hsl(342, 93%, 49%);;
 	background: #fde0db;
 }
 p a:hover::after
@@ -124,11 +115,11 @@ p a:hover::after
 ::selection
 {
 	background: #fde0db;
-	color: #FF6347;
+	color: hsl(342, 93%, 49%);;
 }
 p::selection
 {
-	background: #fde0db;
+	background: #fdf4db;
 }
 h1{font-size: 48px;}
 h2{font-size: 35px;}
@@ -156,7 +147,7 @@ h6::selection
 {
 	font-size: 16px !important;
 	font-weight: 500;
-	color: #777777 !important;
+	color: Body#777777 !important;
 }
 :-moz-placeholder /* older Firefox*/
 {
@@ -318,24 +309,10 @@ section
 }
 
 
-.text-menu-font {
-
-
-	font-family: 'Raleway', sans-serif;
-	font-size: 15px;
-	line-height: 1.7;
-	font-weight: 10000;
-	color: #000000;
-	-webkit-font-smoothing: antialiased;
-	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
-	text-shadow: rgba(0,0,0,.01) 0 0 1px;
-}
-
 .myli li> a {
 
-
 	text-decoration: none;
-	color: #ff1493;
+	color: hsl(342, 93%, 49%);;
 	font-weight: 800;
 	text-transform: uppercase;
 
@@ -363,7 +340,7 @@ section
   width: 0%;
   content: '.';
   color: transparent;
-  background: #ff1493;
+  background: hsl(342, 93%, 49%);;
   height: 1px;
 }
 
@@ -392,7 +369,7 @@ section
 }
 .hamburger:hover .hamburger_dot
 {
-	background: 	#FF1493;
+	background: 	hsl(342, 93%, 49%);;
 }
 .hamburger
 {
@@ -511,7 +488,7 @@ section
 	right: -1350px;
 	width: 1350px;
 	height: 1350px;
-	background: #FF1493;
+	background: hsl(342, 93%, 49%);;
 	z-index: 1000;
 	border-radius: 50%;
 	-webkit-transition: all 0.5s cubic-bezier(.5,.44,.29,.95);
@@ -686,7 +663,7 @@ section
 }
 .home_social ul li a:hover
 {
-	color: #FF6347;
+	color: hsl(342, 93%, 49%);;
 }
 
 /*********************************
@@ -859,7 +836,7 @@ section
 	position: absolute;
 	bottom: -37px;
 	left: 70%;
-	background: #FF1493;
+	background: hsl(342, 93%, 49%);;
 	content: '';
 	width: 250px;
 	height: 15px;
@@ -935,9 +912,9 @@ section
 	align-items: center;
 	width: 50px;
 	height: 50px;
-	border: solid 2px #FF6347;
+	border: solid 2px hsl(342, 93%, 49%);;
 	border-radius: 50%;
-	background: #FF6347;
+	background: hsl(342, 93%, 49%);;
 	float: left;
 }
 .video:hover .play_video
@@ -955,12 +932,12 @@ section
 }
 .video:hover .play_video i
 {
-	color: #FF6347;
+	color: hsl(342, 93%, 49%);;
 }
 .video div:last-of-type
 {
 	float: left;
-	color: #FF6347;
+	color: hsl(342, 93%, 49%);;
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: 900;
@@ -1004,7 +981,7 @@ section
 }
 .main_slider_nav ul li:hover svg path
 {
-	fill:#FF6347;
+	fill:hsl(342, 93%, 49%);;
 }
 
 /*********************************
@@ -1070,7 +1047,7 @@ section
 	left: 50%;
 	width: 350px;
 	height: 15px;
-	background: #FF1493;
+	background: hsl(342, 93%, 49%);;
 	content: '';
 	z-index: 1;
 }
@@ -1138,7 +1115,7 @@ section
 }
 .contact_btn:hover
 {
-	color:#FF6347;
+	color:hsl(342, 93%, 49%);;
 }
 
 /*********************************
@@ -1191,7 +1168,7 @@ section
 	height: 15px;
 	width: calc(100% - 2px);
 	content: '';
-	background: #FF6347;
+	background: hsl(342, 93%, 49%);;
 	z-index: -1;
 }
 .skills_content p:last-child
@@ -1588,7 +1565,7 @@ section
 	content: "\f111";
 	font-family: 'FontAwesome';
 	font-size: 7px;
-	color: #FF6347;
+	color: hsl(342, 93%, 49%);;
 	padding-top: 7px;
 }
 
@@ -2026,7 +2003,7 @@ section
 }
 .blog_post_content h2 a:hover
 {
-	color: #ff6347;
+	color: hsl(342, 93%, 49%);;
 }
 .blog_post_category
 {
@@ -2045,7 +2022,7 @@ section
 	left: 0;
 	width: 40px;
 	height: 3px;
-	background: #ff6347;
+	background: hsl(342, 93%, 49%);;
 	content: '';
 }
 .blog_post_meta
@@ -2057,7 +2034,7 @@ section
 }
 .blog_post_meta i
 {
-	color: #ff6347;
+	color: hsl(342, 93%, 49%);;
 	margin-right: 6px;
 	font-size: 16px;
 }
@@ -2363,7 +2340,7 @@ section
 .stats_counter
 {
 	font-size: 48px;
-	color: #FF1493;
+	color: hsl(342, 93%, 49%);;
 }
 .stats_description
 {
@@ -2373,7 +2350,7 @@ section
 }
 .stats_description span
 {
-	color: #FF1493;
+	color: hsl(342, 93%, 49%);;
 }
 .stats_text
 {
@@ -2450,7 +2427,7 @@ section
 }
 .footer_social ul li a:hover
 {
-	color:#FF6347;
+	color:hsl(342, 93%, 49%);;
 }
 .footer_copy
 {
@@ -2465,5 +2442,5 @@ section
 }
 .footer_copy span a:hover
 {
-	color:#FF6347;
+	color:hsl(342, 93%, 49%);;
 }
