@@ -1758,7 +1758,7 @@ section
 }
 .team_item:hover .team_overlay::after
 {
-	border: solid 1px rgba(244, 8, 78, 0);
+	border: solid 1px rgba(244, 8, 78, 1);
 }
 .team_image
 {
