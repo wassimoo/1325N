@@ -3,10 +3,17 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 960 1008" style="enable-background:new 0 0 960 1008;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:1;fill:#fff0f5;enable-background:new    ;}
-	.st1{opcaity:1;fill:#fff0f5;}
+	.st0{enable-background:new    ;}
+	.st1{}
 </style>
-<path id="XMLID_4_" class="st0" d="M480-9v213c165.3,0.2,299.3,134.3,299.3,299.6S645.3,803.1,480,803.3V1017h488V-9H480z"/>
-<path id="XMLID_6_" class="st1" d="M479.6,803.3C314.1,803.3,180,669.1,180,503.6S314.1,204,479.6,204c0.1,0,0.2,0,0.4,0V-9H-8v1026
+<defs>
+		<linearGradient id="grad1" x1="0" y1="0" x2="" y2="1" >
+			<stop offset="0%" style="stop-color:rgba(228, 169, 206,0.8) ;stop-opacity:1" />
+			<stop offset="50%" style="stop-color:rgb(212, 113, 174) ;stop-opacity:1" />
+			<stop offset="100%" style="stop-color:rgb(241, 122, 122);stop-opacity:1" />
+		</linearGradient>
+	</defs>
+<path id="XMLID_4_" class="st0" fill="url(#grad1)" d="M480-9v213c165.3,0.2,299.3,134.3,299.3,299.6S645.3,803.1,480,803.3V1017h488V-9H480z"/>
+<path id="XMLID_6_" class="st1"  fill="url(#grad1)" d="M479.6,803.3C314.1,803.3,180,669.1,180,503.6S314.1,204,479.6,204c0.1,0,0.2,0,0.4,0V-9H-8v1026
 	h488V803.3C479.9,803.3,479.8,803.3,479.6,803.3z"/>
 </svg>
