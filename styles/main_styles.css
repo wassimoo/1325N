@@ -704,6 +704,7 @@ section
 {
 	width: 100vw;
 	height: 100vh;
+	background-image: linear-gradient( rgba(228, 169, 206,0.8) 0, rgb(212, 113, 174) 50%, rgb(241, 122, 122) 100%);
 }
 .main_slider_image_container
 {
@@ -712,6 +713,7 @@ section
 	right: 0;
 	width: 50%;
 	height: 100%;
+
 }
 .main_image_slider
 {
@@ -729,6 +731,7 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	background-color: #FFFFFF;
 }
 .slider_overlay_left
 {
@@ -737,7 +740,7 @@ section
 	left: 0;
 	width: 50%;
 	height: 100%;
-	background: #FFFFFF;
+	background-color:  #FFFFFF;
 	z-index: 2;
 }
 .slider_overlay_right
@@ -806,7 +809,7 @@ section
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 34px;
-	color: #808080;
+	color: white;
 	margin-bottom: 30px;
 }
 .scroll_btn
