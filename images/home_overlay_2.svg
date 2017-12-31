@@ -3,7 +3,6 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 960 1008" style="enable-background:new 0 0 960 1008;" xml:space="preserve">
 <style type="text/css">
-
 	.st0{enable-background:new    ;}
 	.st1{}
 </style>
@@ -14,7 +13,7 @@
 			<stop offset="100%" style="stop-color:rgb(241, 122, 122);stop-opacity:1" />
 		</linearGradient>
 	</defs>
-<path id="XMLID_4_" fill="url(#grad1)" class="st0" d="M480-9v294.5c120.3,0.2,217.7,97.8,217.7,218.1S600.3,721.5,480,721.7V1017h488V-9H480z"/>
-<path id="XMLID_6_" fill="url(#grad1)" class="st1" d="M479.6,721.7c-120.5,0-218.1-97.7-218.1-218.1s97.7-218.1,218.1-218.1c0.1,0,0.2,0,0.4,0V-9H-8
+<path id="XMLID_4_" fill="url(#grad1)" class="st0"  d="M480-9v294.5c120.3,0.2,217.7,97.8,217.7,218.1S600.3,721.5,480,721.7V1017h488V-9H480z"/>
+<path id="XMLID_6_" fill="url(#grad1)" class="st1"  d="M479.6,721.7c-120.5,0-218.1-97.7-218.1-218.1s97.7-218.1,218.1-218.1c0.1,0,0.2,0,0.4,0V-9H-8
 	v1026h488V721.7C479.9,721.7,479.8,721.7,479.6,721.7z"/>
 </svg>
