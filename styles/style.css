@@ -9,6 +9,7 @@
 body{
 	font-family: 'Raleway', sans-serif;
 
+
 	font-weight: 700;
 
 }
@@ -52,9 +53,10 @@ nav ul li {
 nav ul li a {
 	display: block;
 	padding: 15px;
+font-family: 'Trebuchet MS';
 	text-decoration: none;
 	color: #282828;
-	font-weight: 800;
+	font-weight: 700;
 	text-transform: capitalize;
 	margin: 0 10px;
   }
@@ -388,7 +390,7 @@ nav ul li a:hover:after {
 @media screen and (min-width: 861px) {
 	.hamburger_container {
 		display: none;
-	}	
+	}
 }
 
 @media only screen and (max-width:860px){
@@ -406,7 +408,7 @@ nav ul li a:hover:after {
 	{
 		width: 4px;
 		height: 4px;
-	}	
+	}
 }
 
 
@@ -437,14 +439,14 @@ nav ul li a:hover:after {
 		top: 75px;
 		right: 15px;
 	}
-	
+
 	.fs_menu_line
 	{
 		margin-top: 15px;
 		width: 50px;
 		height: 1px;
 	}
-	
+
 		.fs_social
 	{
 		margin-top: 18px;
