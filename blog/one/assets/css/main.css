@@ -3,7 +3,7 @@
 
 Project:	oneworld
 Version:	1.1
-Last change:	03/02/2016   
+Last change:	03/02/2016
 Primary use:	oneworld
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
@@ -13,12 +13,12 @@ Primary use:	oneworld
 2. GENERAL
 3. HEADER
 4. SLIDER
-5. HOME PAGE 
+5. HOME PAGE
 6. INDEX VARIATIONS
 7. TEAM PAGE
 8. PORTFOLIO PAGE
 9. FAQ
-10. ERROR 
+10. ERROR
 11. COMING SOON
 12. BLOG
 13. BLOG SINGLE
@@ -214,7 +214,7 @@ label {
     line-height: 20px; } }
 /* HEADER */
 .m-logo_text {
-  font-family: "beynoregular";
+  font-family: "";
   font-size: 40px;
   line-height: 30px;
   margin: auto;
@@ -714,7 +714,7 @@ label {
   background-image: url("../images/slider_06.jpg")!important;
   background-position: center center;
   background-size: cover;
-  position: relative;  
+  position: relative;
 }
 #m-write_us .m-write_us:after {
   content: "";
@@ -747,7 +747,7 @@ label {
   transition: all 0.3s ease 0s;
   width: 0;
   opacity: 0;
-  margin: auto; 
+  margin: auto;
 }
 .m-get_quote:hover:after {
   content: "";
@@ -778,7 +778,7 @@ label {
 }
 .m-blog .m-main_slider {
   min-height: 175px;
-  background-image:url("../images/service_banner.jpg");  
+  background-image:url("../images/service_banner.jpg");
 }
 .m-write_us .m-get_quote {
   color: #505050;
@@ -807,10 +807,10 @@ label {
 }
 .m-landing .m-landing_single img {
   box-shadow: 0 6px 46px -26px #000;
-  border-radius: 3px; 
+  border-radius: 3px;
 }
 .m-landing .m-landing_listing h3 {
-  margin: 20px 0 50px; 
+  margin: 20px 0 50px;
 }
 .m-landing .m-landing_single img:hover {
   box-shadow: 0 39px 46px -38px #000;
@@ -829,7 +829,7 @@ body .m-main_nav-toggled-button {
 }
 #m-counter .m-counter {
   padding: 70px 0;
-  background-image: url("../images/counter_bg.jpg"); 
+  background-image: url("../images/counter_bg.jpg");
 }
 .m-portfolio_popup_outer .m-portfolio_single_text > div:last-child  {
   width: 100%;
@@ -847,7 +847,7 @@ body .m-main_nav-toggled-button {
   .m-main_nav ul li {
     padding: 0 8px; } }
 @media (max-width: 767px) {
-    
+
   .banner_header .m-get_quote {
     margin-top: 0;
   }
@@ -956,10 +956,10 @@ body .m-main_nav-toggled-button {
     height: 18px;
     width: 18px;
     right: 0;
-    top: -5px; } 
+    top: -5px; }
     body .m-main_nav .m-get_quote {
       margin-top: 0!important;
-    } 
+    }
 
   }
 /* SLIDER */
@@ -1308,7 +1308,7 @@ body .m-counter .m-counter_outer {
       display: block;
     }
     .m-counter .m-counter_outer span.lnr {
-      font-size: 38px; 
+      font-size: 38px;
     }
 .m-counter .m-counter_outer .m-counter_number {
   font-size: 45px;
@@ -3017,7 +3017,7 @@ video {
 
   .m-footer .m-footer_nav li {
     display: block;
-    padding: 5px 0; } 
+    padding: 5px 0; }
     .m-get_quote {
       margin-top: 0;
     }
@@ -3594,7 +3594,7 @@ input:checked + .slider:before {
   margin-left: auto; }
 
 .m-landing {
-  background-image: url("../images/index_bg.jpg"); 
+  background-image: url("../images/index_bg.jpg");
   background-color:#000;
   min-height: 100%;
   padding-bottom: 50px;

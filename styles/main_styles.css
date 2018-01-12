@@ -740,7 +740,7 @@ section
 	left: 0;
 	width: 50%;
 	height: 100%;
-	background-color:  #FFFFFF;
+
 	z-index: 2;
 }
 .slider_overlay_right
@@ -750,7 +750,7 @@ section
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(../images/home_overlay_1.svg);
+	background-image: url(../images/home_overlay_2.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
