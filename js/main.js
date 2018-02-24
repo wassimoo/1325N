@@ -1,8 +1,3 @@
-/****************************************
- *              Countdown               *
- ****************************************/
-
-
 $(function () {
   $(window).off('scroll');
   $(window).off('resize');
@@ -10,10 +5,13 @@ $(function () {
   var header = $('.header');
 
   $(window).on('scroll', function () {
-    header.css({ 'height': "70px", "marginTop": "0px", "background": "rgba(29, 0, 44, 0.70)" });
+    if ($(window).scrollTop() == 0)
+        header.css({"background": "transparent" });
+    else
+        header.css({ 'height': "70px", "marginTop": "0px", "background": "rgba(29, 0, 44, 0.70)" });
   });
 
-  var endDate = "January  30, 2018";
+  var endDate = "March  01, 2018";
   $('.countdown.simple').countdown({ date: endDate });
   $('.countdown.styled').countdown({
     date: endDate,
